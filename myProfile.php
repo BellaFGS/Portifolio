@@ -8,6 +8,9 @@
         <link rel="shortcut icon" href="./img/elementos/icone.ico" type="image/x-icon">
     </head>
     <body>
+        <header>
+           <?php include_once('./includes/navbar.php') ?>
+        </header>
         <section class="profile">
             <h2>Sobre Mim</h2>
             <div class="skills">
