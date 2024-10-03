@@ -1,32 +1,124 @@
+/* Ajuste do fundo */
+.bgLight { background-color: #fef0c3; }
 
 /* Estilo da navbar transparente */
-.navbar { background-color: transparent !important; }
-.navbar .container div .nav-link{ color: #000; transition: all 0.2s; }
-.navbar .container div .nav-link:hover{ opacity: 0.4; transform: scale(1.1);}
+.navbar {
+    background-color: transparent !important;
+    color: #000;
+    margin-bottom: 20px;
+}
+
+.navbar .nav-link {
+    color: #000;
+    transition: all 0.2s;
+}
+
+.navbar .nav-link:hover {
+    opacity: 0.4;
+}
+
+.navbar .navbar-brand {
+    color: #000;
+}
 
 /* Espaçamento do conteúdo principal */
-.main-content { padding: 100px 0; text-align: center;}
+.main-content {
+    padding: 100px 0;
+    text-align: center;
+    margin-top: 20px;
+}
 
-/* Estilo do rodapé com degradê */
-footer { background: linear-gradient(to top, #000, #333); color: #fff; padding: 5% 0;   }
+.feature-img {
+    max-width: 400px; /* Limita a largura máxima da imagem */
+    height: auto; /* Mantém a proporção da imagem */
+    border-radius: 15px; /* Adiciona bordas arredondadas */
+    object-fit: cover; /* Ajusta a imagem ao tamanho do contêiner sem distorções */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
+    background-color: #fff; /* Cor de fundo */
+    padding: 10px; /* Espaçamento ao redor da imagem */
+    margin: 0 auto; /* Centraliza a imagem no contêiner */
+    display: block; /* Certifica-se de que o elemento é um bloco para aplicar margin corretamente */
+}
 
 
-.footer-links div{ display: flex; flex-direction: column; align-items: center; justify-content: space-around; }
-.footer-links a {text-decoration: none; display: flex; justify-content: center; }
 
-/* Estilo das imagens de destaque */
-.feature-img { width: 100%; max-width: 500px; border-radius: 15px; }
+/* Ajustes no texto */
+.project-description {
+    margin-top: 20px;
+    text-align: center; /* Centraliza o texto */
+}
 
+/* Rodapé */
+footer {
+    background: linear-gradient(to top, #000, #333);
+    color: #fff;
+    padding: 5% 0;
+    text-align: center;
+}
 
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
-/* Deixar responsivo para telas menores */
+.footer-links div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-links ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #ccc;
+}
+
+/* Responsividade */
 @media (max-width: 768px) {
-    .button .navbar-brand {color:red;}
-    .navbar { background-color: #333 !important; }
-    .navbar-brand, .nav-link { font-size: 14px; color: white; }
-    .main-content { padding: 50px 0; }
-    .feature-img { max-width: 100%; }
-    /* Estilo do ícone de gatinho */
-    .footer-links { flex-direction: column; text-align: center; font-size: 12px; }
-    .footer-links div { margin: 50px 0px; }
+    .carousel-item img {
+        max-width: 80%;
+    }
+    
+    .navbar {
+        background-color: #fef0c367 !important;
+    }
+
+    .navbar-brand, .nav-link {
+        font-size: 14px;
+        color: white;
+    }
+
+    .navbar-toggler {
+        color: transparent;
+        transition: all 0.2s;
+    }
+
+    .navbar-toggler:hover {
+        opacity: 0.7;
+    }
+
+    .main-content {
+        padding: 50px 0;
+    }
+
+    .feature-img {
+        max-width: 100%; /* Ajusta a imagem para telas menores */
+        max-height: 200px; /* Limita a altura em telas menores */
+    }
+
+    .footer-links {
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
 }
