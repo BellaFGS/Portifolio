@@ -2,16 +2,9 @@
 .bgLight { background-color: #fef0c3; }
 
 /* Estilo da navbar transparente */
-.navbar {
-    background-color: transparent !important;
-    color: #000;
-    margin-bottom: 20px;
-}
+.navbar { background-color: transparent !important; color: #000; margin-bottom: 20px; }
 
-.navbar .nav-link {
-    color: #000;
-    transition: all 0.2s;
-}
+.navbar .nav-link { color: #000; transition: all 0.2s; }
 
 .navbar .nav-link:hover {
     opacity: 0.4;
@@ -28,6 +21,15 @@
     margin-top: 20px;
 }
 
+
+.main-content .container { padding: 5px; margin-bottom: 50px; width: 800px; }
+.main-content .container span{ color: #273f49; font-weight: bold;}
+.main-content .container .carousel{ width: auto; }
+.main-content .container .carousel .carousel-inner .carousel-item img{ margin-bottom: 50px;}
+
+.project-description { margin: 0px 5px; position: relative; right: 2%;}
+.project-description p{background-color: rgba(255, 255, 255, 0.506); padding: 20px; text-align: justify; border-radius: 20px;}
+
 .feature-img {
     max-width: 400px; /* Limita a largura máxima da imagem */
     height: auto; /* Mantém a proporção da imagem */
@@ -35,18 +37,18 @@
     object-fit: cover; /* Ajusta a imagem ao tamanho do contêiner sem distorções */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
     background-color: #fff; /* Cor de fundo */
+  
     padding: 10px; /* Espaçamento ao redor da imagem */
     margin: 0 auto; /* Centraliza a imagem no contêiner */
     display: block; /* Certifica-se de que o elemento é um bloco para aplicar margin corretamente */
 }
 
-
-
 /* Ajustes no texto */
-.project-description {
-    margin-top: 20px;
-    text-align: center; /* Centraliza o texto */
-}
+.project-description { margin-top: 20px; text-align: center; }
+
+
+
+
 
 /* Rodapé */
 footer {
@@ -54,7 +56,9 @@ footer {
     color: #fff;
     padding: 5% 0;
     text-align: center;
-}
+    position: relative;
+    margin-top: 5%;
+    }
 
 .footer-links {
     display: flex;
@@ -110,6 +114,8 @@ footer {
     .main-content {
         padding: 50px 0;
     }
+
+    .main-content .container { width: 450px; }
 
     .feature-img {
         max-width: 100%; /* Ajusta a imagem para telas menores */
