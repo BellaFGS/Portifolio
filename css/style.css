@@ -1,122 +1,71 @@
 /* Ajuste do fundo */
 .bgLight { background-color: #fef0c3; }
+.bgDark { background: linear-gradient(to top, #5d7548, #bdc1ed); }
+
+::-webkit-scrollbar { width: 10px; }
+::-webkit-scrollbar-track {background: #c3c3c395; border-radius: 10px;}
+::-webkit-scrollbar-thumb { background-color: #787878; border-radius: 5px; border: 1px solid #ffffff; }
+::-webkit-scrollbar-thumb:hover { background-color: #0056b3; }
+::-webkit-scrollbar-corner { background-color: #f1f1f1; }
 
 /* Estilo da navbar transparente */
-.navbar { background-color: transparent !important; color: #000; margin-bottom: 20px; }
-
-.navbar .nav-link { color: #000; transition: all 0.2s; }
-
-.navbar .nav-link:hover {
-    opacity: 0.4;
-}
-
-.navbar .navbar-brand {
-    color: #000;
-}
+.navbar { color: #000; margin-bottom: 20px; background-color: rgba(0, 0, 0, 0.29);}
+.navbar .container a img {width: 50px; transition: all 0.2s; filter: invert(100%);}
+.navbar .container a img:hover {opacity: 0.6; }
+.navbar .nav-link { color: #ffffff !important; transition: all 0.2s; }
+.navbar .nav-link:hover { opacity: 0.4; }
+.navbar .navbar-toggler { background-color: rgba(255, 255, 255, 0.639); border-color: rgb(255, 255, 255) ;}
 
 /* Espaçamento do conteúdo principal */
-.main-content {
-    padding: 100px 0;
-    text-align: center;
-    margin-top: 20px;
-}
+.mainDashbord { padding: 100px 0; text-align: center; margin-top: 20px; background: linear-gradient(to top, #5d7548, #ffffff); }
+.mainDashbord .container { padding: 5px; margin-bottom: 50px;  }
+.mainDashbord .container span{ color: #273f49; font-weight: bold;}
+.mainDashbord .container p{ color: #ffffff;}
+.mainDashbord .container .carousel{ width: auto; }
+.mainDashbord .container .carousel .carousel-inner .carousel-item img{ margin-bottom: 50px;}
 
+.carousel-control-prev {color: rgb(255, 255, 255);}
+.carousel-control-prev {background-color: rgb(0, 0, 0); width: 50px; height: 200px; margin-top: 10%; border-radius: 15px;}
+.carousel-control-next {background-color: rgb(0, 0, 0); width: 50px; height: 200px;  margin-top: 10%; border-radius: 15px;}
+.project-description { margin: 0px 5px; position: relative; right: 2%;}
+.project-description p{background-color: rgba(255, 255, 255, 0.506); padding: 20px; text-align: justify; border-radius: 20px;}
+.project-description h3{color: white;}
 
+.main-content { padding: 100px 0; text-align: center; margin-top: 20px; }
 .main-content .container { padding: 5px; margin-bottom: 50px;  }
-.main-content .container span{ color: #273f49; font-weight: bold;}
 .main-content .container .carousel{ width: auto; }
 .main-content .container .carousel .carousel-inner .carousel-item img{ margin-bottom: 50px;}
 
-.project-description { margin: 0px 5px; position: relative; right: 2%;}
-.project-description p{background-color: rgba(255, 255, 255, 0.506); padding: 20px; text-align: justify; border-radius: 20px;}
-
-.feature-img {
-    max-width: 400px; /* Limita a largura máxima da imagem */
-    height: auto; /* Mantém a proporção da imagem */
-    border-radius: 15px; /* Adiciona bordas arredondadas */
-    object-fit: cover; /* Ajusta a imagem ao tamanho do contêiner sem distorções */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adiciona uma leve sombra */
-    background-color: #fff; /* Cor de fundo */
-  
-    padding: 10px; /* Espaçamento ao redor da imagem */
-    margin: 0 auto; /* Centraliza a imagem no contêiner */
-    display: block; /* Certifica-se de que o elemento é um bloco para aplicar margin corretamente */
-}
+.feature-img { max-width: 400px; height: auto; border-radius: 15px; object-fit: cover; box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); background-color: #fff; padding: 10px; margin: 0 auto; display: block; }
 
 /* Ajustes no texto */
 .project-description { margin-top: 20px; text-align: center; }
 
 
-
-
-
 /* Rodapé */
-footer {
-    background: linear-gradient(to top, #000, #333);
-    color: #fff;
-    padding: 5% 0;
-    text-align: center;
-    position: relative;
-    margin-top: 5%;
-    }
-
-.footer-links {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-}
-
-.footer-links div {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.footer-links ul {
-    padding: 0;
-    list-style-type: none;
-}
-
-.footer-links a {
-    text-decoration: none;
-    color: #fff;
-    transition: color 0.3s;
-}
-
-.footer-links a:hover {
-    color: #ccc;
-}
+footer { background: linear-gradient(to top, #000, #333); color: #fff; padding: 5% 0; text-align: center; position: relative; }
+.footer-links { display: flex; justify-content: center; gap: 20px; }
+.footer-links div { display: flex; flex-direction: column; align-items: center;}
+.footer-links ul { padding: 0; list-style-type: none; }
+.footer-links a { text-decoration: none; color: #fff; transition: color 0.3s; }
+.footer-links a:hover { color: #ccc; }
 
 /* Responsividade */
 @media (max-width: 768px) {
     .carousel-item img { max-width: 80%; }
+    .carousel-control-prev {background-color: rgb(0, 0, 0); width: 30px; height: 100px; margin-top: 13%; border-radius: 15px;}
+    .carousel-control-next {background-color: rgb(0, 0, 0); width: 30px; height: 100px;  margin-top: 13%; border-radius: 15px;}
     
-    .navbar { background-color: #fef0c367 !important; }
+    .navbar { background-color: #00000082 !important; }
+    .navbar .container a img {width: 30px; }
+    .navbar-brand, .nav-link { font-size: 14px; color: rgb(255, 255, 255) !important; }
+    .navbar-toggler { color: transparent; transition: all 0.2s; }
+    .navbar-toggler:hover { opacity: 0.7; }
 
-    .navbar-brand, .nav-link { font-size: 14px; color: white; }
-
-    .navbar-toggler {
-        color: transparent;
-        transition: all 0.2s;
-    }
-
-    .navbar-toggler:hover {
-        opacity: 0.7;
-    }
-
-    .main-content {
-        padding: 50px 0;
-    }
+    .main-content { padding: 50px 0; margin: 50px 0px;}
 
 
-    .feature-img {
-        max-width: 100%; /* Ajusta a imagem para telas menores */
-        max-height: 200px; /* Limita a altura em telas menores */
-    }
+    .feature-img { max-width: 100%; max-height: 200px; }
 
-    .footer-links {
-        flex-direction: column;
-        text-align: center;
-        gap: 50px;
-    }
+    .footer-links { flex-direction: column; text-align: center; gap: 50px; }
 }
