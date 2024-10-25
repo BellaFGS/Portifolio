@@ -67,32 +67,32 @@ const projectData = [
         description: "Ser uma pessoa organizada envolve planejar e priorizar suas tarefas, mantendo um equilíbrio entre suas responsabilidades. Métodos que ajudam incluem o uso de listas de tarefas (to-do lists), calendários para agendar compromissos e prazos, além da técnica Pomodoro, que divide o tempo em blocos de trabalho e pausas. Outra abordagem eficaz é o método de priorização, como a Matriz de Eisenhower, que separa o que é urgente do que é importante.<br><br>Esses hábitos, quando incorporados ao dia a dia, ajudam a manter o foco, evitar o acúmulo de tarefas e melhorar a produtividade de maneira organizada e eficiente. Para quem estiver buscando inspiração, recomendo o livro \"Roube como um Artista: 10 Dicas sobre Criatividade\", de Austin Kleon, que traz insights valiosos sobre como fomentar a criatividade em sua rotina."
     },
     {
-        title: "(28/08/2024)",
-        description: ""
+        title: "Fluxo de Operações Comercial - UNO (29/08/2024)",
+        description: "O fluxo de operações comerciais em um ERP é como o maestro de uma orquestra: ele sincroniza todo mundo, desde o momento em que o pedido de venda chega até o controle do estoque e o pagamento caindo na conta. E o melhor? Ele faz isso tudo de uma vez só, unindo cada etapa num sistema só. Nada de informação espalhada pra lá e pra cá!<br><br>Com esse fluxo rodando, as tarefas ficam automatizadas e os departamentos de vendas, finanças e logística conseguem trabalhar em plena harmonia. Esse processo traz aquela paz de espírito – menos erros, eficiência nas alturas, e uma visão completa para tomar as decisões mais certeiras e acompanhar o desempenho da equipe. Quem não quer essa ajuda extra na gestão do dia a dia, né?<br><br>"
     },
     {
-        title: "(05/09/2024)",
-        description: ""
+        title: "IA + TI e outras tecnologias (05/09/2024)",
+        description: "Com a ascensão da IA Generativa, a área de TI está vivendo uma revolução! Ferramentas como ChatGPT e DALL-E estão transformando o desenvolvimento de software, a automação e até a criação de conteúdo. 🚀 Outra tendência imperdível é a automação inteligente, integrando IA em processos empresariais para um “boom” de eficiência. <br>E ainda tem mais: a computação em nuvem, cibersegurança avançada e machine learning seguem evoluindo rápido, focados em escalabilidade e segurança de dados. Com tantas inovações, a galera da TI precisa estar sempre se atualizando e desenvolvendo novas habilidades! 🌐<br>Falando em IA, recentemente fizemos uma atividade de planejamento de projeto usando essas tecnologias. Usei isso para desenvolver um projeto que já estava na minha mente: o jogo socioemocional \"Tóby e Pam\"! Futuramente, ele vai estar disponível no meu portfólio, assim que eu implementar novas atualizações por aqui. Fiquem de olho! 🎮✨"
     },
     {
-        title: "(19/09/2024)",
-        description: ""
+        title: "Como posso ter uma carreira bem sucedida? (19/09/2024)",
+        description: "Para uma carreira de sucesso, nada como construir uma marca pessoal autêntica que mostre quem você é de verdade e a qualidade do seu trabalho! Isso quer dizer investir tanto nas habilidades técnicas quanto nas soft skills – aquelas que dão todo o charme no ambiente profissional, como comunicação, liderança e empatia. 😉<br>Criar algo que seja sua assinatura, seja um estilo único ou uma abordagem especial, vai fazer você brilhar no mercado! 🌟 E, claro, plataformas como o LinkedIn são grandes aliadas para promover você e suas conquistas. Compartilhar experiências, participar das conversas e manter a rede sempre ativa são passos certos para fortalecer sua imagem e abrir novas portas. 🚀"
     },
     {
-        title: "(24/09/2024)",
-        description: ""
+        title: "Capricho: skill cada vez mais raro no Mercado (24/09/2024)",
+        description:"Dar o seu melhor é sobre dedicação e aquele toque especial no que você faz! Na programação, isso significa escrever um código limpo, pensar em soluções inteligentes e estar sempre aberto ao aprendizado. Usar métodos de organização, checklists e revisar o próprio trabalho é o que ajuda a manter o nível lá no alto. 🚀<br>Mas, convenhamos, é raro encontrar profissionais que realmente se empenham nisso, né? Muitos estão só focados em “fazer funcionar” e deixam de lado a qualidade e a manutenção do código. O grande diferencial é de quem está sempre buscando evoluir e entregar o melhor possível – e isso faz toda a diferença no mercado! ✨"
     },
     {
-        title: "(10/10/2024)",
-        description: ""
+        title: "Desenvolvimento Low Code (10/10/2024)",
+        description: "Low code e no code são como superpoderes modernos para quem quer desenvolver software sem precisar mergulhar em códigos complexos! 🌟<br>Com low code, você monta aplicativos com blocos visuais e um toque de código para customizar detalhes. Ótimo para quem tem algum conhecimento técnico e quer algo mais elaborado, sem perder muito tempo. Já o no code é ainda mais direto ao ponto: só interfaces visuais, sem nenhuma linha de programação. Ideal para soluções rápidas e simples, embora com menos liberdade para personalizar. 🚀<br>A diferença é que low code oferece mais controle, enquanto no code é mais limitado. Ambas as abordagens são muito mais ágeis que a programação tradicional, mas, claro, isso vem com a troca da flexibilidade e complexidade."
     },
     {
-        title: "(11/10/2024)",
-        description: ""
+        title: "Criatividade e inovação | IOCHPE (11/10/2024)",
+        description: "A Fundação Ioschpe trouxe uma palestra incrível sobre \"Criatividade e Inovação\", recheada de métodos inspiradores para estimular a criatividade! 🌟 Baseada em várias referências, a palestra explorou conceitos como a matriz GUT, biomimetismo e design thinking, mostrando como observar a natureza, pensar de forma criativa e priorizar projetos podem levar a soluções realmente inovadoras.<br>Além dessas técnicas, a Fundação abordou práticas como SCAMPER e crowdsourcing, ótimas para quem quer aprender a gerar ideias novas e colaborar de forma coletiva. E não foi só teoria – eles vieram para abrir ainda mais portas para nosso desenvolvimento em TI, disponibilizando também um curso sobre a jornada de contextualização profissional. Esse curso, cheio de insights, é uma oportunidade incrível para continuar aprendendo e aplicando ferramentas estratégicas no nosso dia a dia! 💡"
     },
     {
-        title: "(17/10/2024)",
-        description: ""
+        title: "Preparando-se para o amanhã: da FATEC para o mundo (17/10/2024)",
+        description: "A palestra “Preparando-se para o amanhã: da FATEC para o mundo” foi inspiradora e cheia de dicas valiosas para quem está dando os primeiros passos na carreira. Flávia Freitas, a palestrante, compartilhou sua própria trajetória, incentivando a todos a sair da zona de conforto, criar uma boa rede de contatos e buscar sempre novas experiências. Ela reforçou como a curiosidade e o trabalho em equipe fazem a diferença, além de destacar que bons hábitos são a base para se tornar um ótimo profissional no futuro.<br>E não parou por aí! Flávia também anunciou uma parceria sensacional entre a IBM e a Fundação Iochpe para oferecer uma trilha de aprendizagem de 60 horas. Esse programa aborda novas tecnologias, gerenciamento de projetos e preparação para a carreira, além de fornecer certificados com validação internacional – uma grande vantagem para o currículo!<br>Durante o evento, ela ainda respondeu a várias perguntas sobre inclusão no mercado e compartilhou como sua própria jornada impactou seu sucesso. Foi uma oportunidade incrível de ver como a experiência dela pode nos inspirar a construir nossas próprias histórias de sucesso!"
     },
    
 ];
